@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Page Personnelle - Football</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        h1 {
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ma Passion pour le Football</h1>
+    </header>
+    <div class="container">
+        <h2>Galerie de Photos des Footballeurs</h2>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/200" alt="Footballeur 1">
+            <img src="https://via.placeholder.com/200" alt="Footballeur 2">
+            <img src="https://via.placeholder.com/200" alt="Footballeur 3">
+            <img src="https://via.placeholder.com/200" alt="Footballeur 4">
+            <img src="https://via.placeholder.com/200" alt="Footballeur 5">
+            <img src="https://via.placeholder.com/200" alt="Footballeur 6">
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Ma Page Personnelle. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
